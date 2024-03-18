@@ -1,0 +1,75 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+ :root {
+   --contrast: #e8e8e8;
+   --backgr: #f8f7f7;
+   --text: #000000;
+   --red: #FF6D6D;
+   --orange: #ffc774;
+   --blue: #8ED8DF;
+   --grey: #393938;
+ }
+
+/* Use your variables on elements */
+* {
+  background: var(--backgr);
+} 
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.menubox {
+  flex-direction: row;
+  width: 1365px;
+  height: auto;
+  border: 1px solid black;
+}
+
+#logo1 {
+  width: 80px;
+  height: auto;
+  padding-left: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+}
+
+
+/* Ændre h1, logo og col så det passer*/
+h1 {
+  font-family: 'Elephant', sans-serif;
+  font-size: 55px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 150px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 150px;
+  padding-bottom: 20px;
+}
+
+main {
+   background-color: var(--backgr);
+ }
