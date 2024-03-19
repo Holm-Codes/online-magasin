@@ -19,33 +19,46 @@
   background: var(--backgr);
 } 
 
-.row {
+.menubox {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 15px;
-}
-
-.menubox {
-  flex-direction: row;
+  padding-left: auto;
   width: 1365px;
-  height: auto;
-  border: 1px solid black;
+  height: 60px;
+  border: 1px solid var(--grey);
 }
 
 #logo1 {
   width: 80px;
   height: auto;
-  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.searchbar{
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  border: 1px solid var(--grey);
+  width: 300px;
+  
+}
+
+i{
+  align-items: center;
+  line-height: 30px;
+  margin: 8px;
 }
 
 .menu {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 15px;
+  line-height: 10px;
+  padding-left: 30px;
 }
-
 
 /* Ændre h1, logo og col så det passer*/
 h1 {
@@ -56,19 +69,18 @@ h1 {
   padding: 0px;
   margin: 10px;
   margin-left: 150px;
-  padding-bottom: 20px;
 }
 
 h2 {
   font-family: "Century Gothic Paneuropean", sans-serif;
   font-size: 15px;
-  font-weight: lighter;
+  font-weight: bold;
   text-align: center;
-  padding: 0px;
   margin: 10px;
-  margin-left: 150px;
-  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 55px;
 }
+
 
 main {
    background-color: var(--backgr);
