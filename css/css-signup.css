@@ -9,6 +9,17 @@
    --backgr: #000;
  }
 
+
+ #signup:visited {
+  background-color: var(--orange);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--text);
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  }
+  
 /* Use your variables on elements */
  main {
    color: var(--contrast);
