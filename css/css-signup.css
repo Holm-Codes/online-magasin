@@ -80,6 +80,12 @@ h2 {
  margin-right: 55px;
 }
 
+/* Fix span form issue*/
+.bold {
+    font-weight: bold;
+}
+
+
 /* Fix hover issue*/
 h2:hover{
  background-color: var(--orange);
