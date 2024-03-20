@@ -57,6 +57,19 @@ input[type=submit]:hover {
   background-color: #ffc774;
 }
 
+h3 {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+ }
+
+p {
+  text-align: center;
+  margin: 0px;
+}
+
 form {
   box-sizing: border-box;
   border: #000000;
@@ -65,15 +78,26 @@ form {
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding-top: 40px;
-  padding-left: 130px;
+  padding-left: 147px;
   padding-bottom: 40px;
-  margin-left: 350px;
+  margin-left: 345px;
 }
 
 .bold {
     font-weight: bold;
     font-family: "Century Gothic Paneuropean", sans-serif;
 }
+
+.light {
+  font-weight: lighter;
+    font-family: "Century Gothic Paneuropean", sans-serif;
+}
+
+main {
+   color: var(--text);
+   background-color: var(--backgr);
+   
+ }
   </style>
 </head>
 <body>
@@ -123,9 +147,15 @@ form {
  
   <main>
 
-    <img class="signup-banner" src="images/signup/signup-banner.png">
+    <h3>
+      Sign up hos Backpackers World
+    </h3>
+    <p>
+      Bliv underettet når nye destinationer bliver tilføjet, <br> skriv med andre backpackere i vores forum og meget mere!
+    </p>
 
     <form class="signup-form" method="post">
+
       <label for="fname"><span class="bold"> First name:</span></label><br>
       <input type="text" id="fname" name="fname" size="50" placeholder="Jens" required autofocus><br>
 
@@ -135,10 +165,10 @@ form {
       
       <label for="kon"><span class="bold">Køn:</span></label><br>
 
-      <label for="kvinde"><span class="bold">Kvinde</span></label>
+      <label for="kvinde"><span class="light">Kvinde</span></label>
       <input type="radio" id="kvinde" name="kvinde" value="kvinde">
 
-      <label for="mand"><span class="bold">Mand</span></label>
+      <label for="mand"><span class="light">Mand</span></label>
       <input type="radio" id="mand" name="mand" value="mand"><br>
 
       <label for="birthday"><span class="bold">Birthday:</span></label><br>
@@ -159,9 +189,6 @@ form {
       <input type="submit" value="Submit">
 
     </form>
-
-    <img class="signup-banner" src="images/signup/signup-banner.png">
-
 
   </main>
   <script src="js/js.js"></script>

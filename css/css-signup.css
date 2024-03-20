@@ -117,11 +117,18 @@ h2:hover{
  font-weight: bold;
 }
 
-.row { 
+.row {
  display: flex;
  flex-direction: row;
  align-items: center;
 }
+
+
+
   
 /* Use your variables on elements */
-
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+   text-align: center;
+ }
