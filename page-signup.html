@@ -69,6 +69,11 @@ form {
   padding-bottom: 40px;
   margin-left: 350px;
 }
+
+.bold {
+    font-weight: bold;
+    font-family: "Century Gothic Paneuropean", sans-serif;
+}
   </style>
 </head>
 <body>
@@ -117,41 +122,45 @@ form {
   </header>
  
   <main>
+
+    <img class="signup-banner" src="images/signup/signup-banner.png">
+
     <form class="signup-form" method="post">
       <label for="fname"><span class="bold"> First name:</span></label><br>
       <input type="text" id="fname" name="fname" size="50" placeholder="Jens" required autofocus><br>
 
-      <label for="lname">Last name:</label><br>
+      <label for="lname"><span class="bold">Last name:</span></label><br>
       <input type="text" id="lname" name="lname" size="50" placeholder="Jensen" required><br>
 
       
-      <label for="kon">Køn:</label><br>
+      <label for="kon"><span class="bold">Køn:</span></label><br>
 
-      <label for="kvinde">Kvinde</label>
+      <label for="kvinde"><span class="bold">Kvinde</span></label>
       <input type="radio" id="kvinde" name="kvinde" value="kvinde">
 
-      <label for="mand">Mand</label>
+      <label for="mand"><span class="bold">Mand</span></label>
       <input type="radio" id="mand" name="mand" value="mand"><br>
 
-      <label for="birthday">Birthday:</label><br>
+      <label for="birthday"><span class="bold">Birthday:</span></label><br>
       <input type="date" id="birthday" name="birthday"><br>
 
-      <label for="email">E-mail:</label><br>
+      <label for="email"><span class="bold">E-mail:</span></label><br>
       <input type="email" id="email" name="email" size="50" placeholder="backpacking-lover@gmail.com" required autocomplete="on"><br>
 
-      <label for="re-email">Re-enter e-mail:</label><br>
+      <label for="re-email"><span class="bold">Re-enter e-mail:</span></label><br>
       <input type="email" id="re-email" name="re-email" size="50" placeholder="backpacking-lover@gmail.com" required><br>
 
-      <label for="password">Password:</label><br>
+      <label for="password"></label><span class="bold">Password:</span></label><br>
       <input type="password" id="password" name="password" size="50" required><br>
 
-      <label for="re-password">Re-enter password:</label><br>
+      <label for="re-password"><span class="bold">Re-enter password:</span></label><br>
       <input type="password" id="re-password" name="re-password" size="50" required><br>
 
       <input type="submit" value="Submit">
 
-
     </form>
+
+    <img class="signup-banner" src="images/signup/signup-banner.png">
 
 
   </main>

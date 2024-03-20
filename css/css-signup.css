@@ -81,9 +81,7 @@ h2 {
 }
 
 /* Fix span form issue*/
-.bold {
-    font-weight: bold;
-}
+
 
 
 /* Fix hover issue*/
@@ -126,7 +124,4 @@ h2:hover{
 }
   
 /* Use your variables on elements */
- main {
-   color: var(--contrast);
-   background-color: var(--backgr);
- }
+
