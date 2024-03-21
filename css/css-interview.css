@@ -19,6 +19,11 @@
  background: var(--backgr);
 } 
 
+@font-face {
+  font-family: "Perpetua";
+  src: url("https://fontsforyou.com/fonts/p/Perpetua.ttf");
+}
+
 .menubox {
  display: flex;
  flex-direction: row;
@@ -106,7 +111,7 @@ h6 {
 }
 
 p {
-  font-family: per;
+  font-family: "Perpetua";
   color: var(--text);
   width: 100%;
   padding-left: 150px;
@@ -135,7 +140,7 @@ p {
 }
 
 #p2 {
-  font-family: per;
+  font-family: "Perpetua";
   color: var(--text);
   width: 100%;
   padding-left: 15px;
