@@ -89,6 +89,14 @@ h3 {
   margin-bottom: 0px;
 }
 
+h4 {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 25px;
+  color: var(--blue);
+  padding-left: 150px;
+  margin: 0px;
+}
+
 h6 {
   font-family: "Century Gothic Paneuropean", sans-serif;
   font-size: 15px;
@@ -102,7 +110,18 @@ p {
   color: var(--text);
   width: 100%;
   padding-left: 150px;
-  
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically aligns content */
+}
+
+#img-para {
+  width: 500px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 188px; /* Add margin to the right for spacing */
+  margin-left: 5px;
 }
 
 .bold {
