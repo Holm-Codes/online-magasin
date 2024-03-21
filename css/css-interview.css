@@ -98,9 +98,24 @@ h6 {
 }
 
 p {
+  font-family: per;
   color: var(--text);
   width: 100%;
   padding-left: 150px;
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.para-link {
+  font-style: italic;
+  background-color: var(--orange);
 }
 
 /* Fix hover issue, perhaps using padding/margin inline start*/
