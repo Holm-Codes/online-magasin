@@ -4,10 +4,165 @@
  **/
 
 /* Define variables in the :root */
- :root {
-   --contrast: lime;
-   --backgr: #000;
+:root {
+  --contrast: #e8e8e8;
+  --backgr: #f8f7f7;
+  --text: #000000;
+  --red: #FF6D6D;
+  --orange: #ffc774;
+  --blue: #8ED8DF;
+  --grey: #393938;
+}
+
+/* Use your variables on elements */
+* {
+ background: var(--backgr);
+} 
+
+.menubox {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding-left: auto;
+ width: 1365px;
+ height: 50px;
+ border: 1px solid var(--grey);
+}
+
+#logo1 {
+ width: 80px;
+ height: auto;
+ padding-right: 20px;
+}
+
+.searchbar{
+ display: inline-block;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ height: 25px;
+ border: 1px solid var(--grey);
+ width: 300px;
+ margin: auto;
+}
+
+i{
+ align-items: center;
+ line-height: 15px;
+ margin: 6px;
+}
+
+.menu {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ line-height: 10px;
+ padding-left: 30px;
+}
+
+h1 {
+ font-family: 'Elephant', sans-serif;
+ font-size: 55px;
+ font-weight: lighter;
+ text-align: center;
+ padding: 0px;
+ margin: 10px;
+ margin-left: 150px;
+}
+
+h2 {
+ font-family: "Century Gothic Paneuropean", sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+ text-align: center;
+ margin: 10px;
+ margin-left: 50px;
+ margin-right: 55px;
+}
+
+h3 {
+  font-family:"Elephant", sans-serif;
+  font-size: 40px;
+  color: var(--red);
+  padding-left: 150px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+h6 {
+  font-family: "Century Gothic Paneuropean", sans-serif;
+  font-size: 15px;
+  color: var(--text);
+  padding-left: 150px;
+  margin-top: 0px;
+}
+
+p {
+  color: var(--text);
+  width: 100%;
+  padding-left: 150px;
+}
+
+/* Fix hover issue, perhaps using padding/margin inline start*/
+h2:hover{
+ background-color: var(--orange);
+ height: 20px;
+ cursor: pointer;
+}
+
+#signup:hover{
+ background-color: var(--orange);
+ cursor: pointer;
+}
+
+#signup:link {
+ background-color: var(--orange);
+ cursor: pointer;
+ text-decoration: none;
+ color: var(--text);
+ font-family: "Century Gothic Paneuropean", sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+ margin-right: 50px;
+ margin-left: 30px;
+}
+   
+#signup:visited {
+ cursor: pointer;
+ text-decoration: none;
+ color: var(--text);
+ font-family: "Century Gothic Paneuropean", sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+.row { 
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.row2 { 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
  }
+
+#interview-personer {
+  width: 1000px;
+  height: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+  
+}
+
+.interview-banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 /* Use your variables on elements */
  main {
