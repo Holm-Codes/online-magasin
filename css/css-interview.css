@@ -124,6 +124,35 @@ p {
   margin-left: 5px;
 }
 
+.image-container {
+  margin-right: 20px; /* Adjust as needed for spacing */
+}
+
+.image-text {
+  font-size: 14px; /* Adjust as needed */
+  color: #333; /* Adjust text color */
+  margin-top: 5px; /* Adjust as needed for spacing */
+}
+
+#p2 {
+  font-family: per;
+  color: var(--text);
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 180px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center; /* Vertically aligns content */
+}
+
+#img-para2 {
+  width: auto; /* Set the width of the image */
+  height: 500px; /* Maintain aspect ratio */
+  padding-left: 150px;
+}
+
 .bold {
   font-weight: bold;
 }
