@@ -1,9 +1,4 @@
-/**
- * file: css/css.css
- * purpose: styling
- **/
 
-/* Define variables in the :root */
  :root {
    --contrast: #e8e8e8;
    --backgr: #f8f7f7;
@@ -14,7 +9,6 @@
    --grey: #393938;
  }
 
-/* Use your variables on elements */
 * {
   background: var(--backgr);
 } 
@@ -81,7 +75,6 @@ h2 {
   
 }
 
-/* Fix hover issue, perhaps using padding/margin inline start*/
 h2:hover{
   background-color: var(--orange);
   height: 20px;
@@ -170,7 +163,6 @@ h2:hover{
  height: auto;
  margin: 20px;
  padding-left: 50px;
- 
 }
 
 main {
