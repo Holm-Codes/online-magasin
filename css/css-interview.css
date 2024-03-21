@@ -72,7 +72,7 @@ h1 {
  text-align: center;
  padding: 0px;
  margin: 10px;
- margin-left: 150px;
+ margin-left: 50px;
 }
 
 h2 {
@@ -125,7 +125,7 @@ p {
 #img-para {
   width: 500px; /* Set the width of the image */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 188px; /* Add margin to the right for spacing */
+  margin-right: 130px; /* Add margin to the right for spacing */
   margin-left: 5px;
 }
 
@@ -215,7 +215,8 @@ h2:hover{
   flex-direction: row;
   align-items: flex-start;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
+  margin-right: 60px;
  }
 
 #interview-personer {
